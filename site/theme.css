@@ -190,6 +190,7 @@ header {
 .search-container button img {
     width: 55px;
     height: 55px;
+    margin-left: -15px;
 }
 
 /* Placeholder da barra de pesquisa*/
@@ -197,21 +198,39 @@ header {
     color: rgb(82, 81, 81);
 }
 
-/* Estilo do ícone de login e texto ao lado*/
-.icon-button {
+/* Contêiner principal para o ícone e os links */
+.login-container {
     display: flex;
     align-items: center;
+}
+
+/* Estilo do ícone de usuário */
+.usuario-icon {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px; /* Espaçamento entre o ícone e os links */
+}
+
+/* Contêiner para os links */
+.login-buttons {
+    display: flex;
+    flex-direction: column; /* Alinha os links em coluna */
+}
+
+/* Estilo dos links */
+.icone-button {
     text-decoration: none;
     color: #ffffff;
     font-size: 14pt;
-    margin-left: -20px;
+    display: flex;
+    align-items: center;
 }
 
-/* Estilo do texto ao lado do ícone de login */
-.icon-button strong {
-    margin-left: 5px; /* Espaçamento entre o ícone e o texto */
-    font-size: 12pt;
+/* Ajuste para o botão "CADASTRE-SE" */
+.registro-link {
+    margin-top: 5px; /* Espaçamento entre "ENTRE OU" e "CADASTRE-SE" */
 }
+
 
 /* Estilos gerais da barra de navegação */
 nav {
