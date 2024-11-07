@@ -154,6 +154,20 @@ header {
     margin: 0;
     font-size: 17pt;
 }
+.logo-home {
+    display: flex;
+    align-items: center; /* Alinha verticalmente a logo e o texto */
+    justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+    text-decoration: none;
+}
+
+/* Estilo do título da logo */
+.logo-home h1 {
+    color: white; /* Cor do texto branco */
+    font-size: 28px; /* Tamanho da fonte do título */
+    font-weight: 700; /* Peso da fonte */
+    margin: 0; /* Remove a margem padrão */
+}
 
 /* Container da barra de pesquisa: centralização horizontal */
 .search-container {
@@ -254,6 +268,10 @@ nav a {
 nav a:hover {
     text-decoration: wavy;
     color: #437377;
+}
+nav a.active {
+    color: #437377; /* Cor para o link ativo */
+    text-decoration: underline; /* Pode usar underline ou outro estilo */
 }
 
 /* --- SEÇÃO PRINCIPAL --- */
